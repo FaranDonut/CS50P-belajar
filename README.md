@@ -15,7 +15,7 @@
 *   **Procedural Programming :** Paradigma pemrograman yang fokus pada penulisan fungsi atau prosedur langkah demi langkah dari atas ke bawah untuk menyelesaikan masalah.
 *   **Functional Programming :** Salah satu paradigma pemrograman lain yang juga akan dipelajari dalam kursus ini.
 
-## ***Week 0*** 
+## ***Week 0 Function & Variables*** 
 * argumen adalah nilai input yang diberikan kepada sebuah fungsi untuk memengaruhi perilakunya, Cara kerjanya: Saat Anda memanggil fungsi, Anda menempatkan nilai (argumen) di dalam tanda kurung. Misalnya, saat menggunakan fungsi print, teks yang ingin Anda tampilkan diteruskan sebagai argumen.
 * return values (nilai balik) adalah sebuah fitur di mana suatu fungsi, setelah menjalankan tugas atau aksinya, memberikan kembali sebuah hasil atau data kepada pemrogram agar dapat digunakan atau diproses lebih lanjut.
 > * _Analogi Sederhana:_ David Malan mengibaratkan fungsi dengan *return value* seperti meminta tolong kepada teman. Anda memberikan tugas kepada teman untuk menanyakan nama seseorang; ketika teman Anda kembali dengan membawa jawaban nama tersebut, itulah yang disebut sebagai *return value*.
