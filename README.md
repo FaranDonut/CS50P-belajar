@@ -29,7 +29,7 @@
 Untuk memahami penggunaannya lebih lanjut, berikut adalah beberapa operasi dan manipulasi dasar yang paling sering digunakan dalam pemrograman Python.
 
 ---
-###### 1. Cara Membuat String
+#### 1. Cara Membuat String
 
 Anda dapat langsung menetapkan teks ke dalam sebuah variabel.
 
@@ -38,9 +38,7 @@ nama = "Python"
 pesan = 'Belajar Pemrograman'
 ```
 
----
-
-###### 2. Menggabungkan String
+#### 2. Menggabungkan String
 
 Gunakan operator penjumlahan (`+`) untuk menggabungkan dua atau lebih string.
 
@@ -49,9 +47,7 @@ kalimat = "Halo " + "Dunia"
 print(kalimat)  # Output: Halo Dunia
 ```
 
----
-
-###### 3. Mengakses Karakter (Indexing)
+#### 3. Mengakses Karakter (Indexing)
 
 Anda dapat mengakses karakter tertentu berdasarkan posisinya.
 
@@ -65,9 +61,7 @@ print(teks[0])   # Output: P
 print(teks[-1])  # Output: N
 ```
 
----
-
-###### 4. Mengetahui Panjang String
+#### 4. Mengetahui Panjang String
 
 Gunakan fungsi bawaan `len()` untuk menghitung jumlah karakter dalam sebuah string.
 
@@ -76,9 +70,7 @@ panjang = len("Pemrograman")
 print(panjang)  # Output: 11
 ```
 
----
-
-###### 5. Memformat String (*f-string*)
+#### 5. Memformat String (*f-string*)
 
 Gunakan **f-string** (tersedia mulai Python 3.6) untuk memasukkan nilai variabel langsung ke dalam string menggunakan kurung kurawal (`{}`).
 
@@ -89,9 +81,7 @@ info = f"Saya berumur {umur} tahun"
 print(info)  # Output: Saya berumur 25 tahun
 ```
 
----
-
-###### 6. Method String yang Sering Digunakan
+#### 6. Method String yang Sering Digunakan
 
 Tipe data `string` memiliki banyak method bawaan untuk memanipulasi teks.
 
