@@ -1,7 +1,7 @@
 # CS50P-belajar
 * journey belajar dan dibawah ini catatan untuk  kedepannya
 
-# Berikut adalah daftar istilah pemrograman yang dijelaskan dalam video **CS50P** beserta definisinya:
+# Berikut adalah daftar istilah pemrograman yang mewakilkan bab pembelajaran dalam video **CS50P** beserta definisinya:
 
 *   **Functions & Variables :** Mekanisme untuk menulis kode yang memecahkan masalah kecil, yang kemudian dapat digabungkan untuk menyelesaikan masalah yang lebih besar.
 *   **Conditionals :** Cara menulis logika dalam kode untuk menentukan tindakan berdasarkan apakah suatu kondisi bernilai benar (*true*) atau salah (*false*).
@@ -25,6 +25,110 @@
 * variabel adalah sebuah wadah atau kontainer yang digunakan untuk menyimpan suatu nilai di dalam memori komputer agar dapat digunakan kembali di dalam program. Kegunaan dari variabel memungkinkan pemrogram untuk menyimpan data, baik itu angka, teks (string), maupun tipe data lainnya, sehingga program bisa "mengingat" informasi tersebut
 * Operator Penugasan (Assignment): David menjelaskan penggunaan tanda = sebagai operator penugasan. Ia menegaskan bahwa ini bukan tanda sama dengan dalam matematika, melainkan perintah untuk "mengambil nilai di sisi kanan dan memasukkannya ke dalam wadah (variabel) di sisi kiri".
 * comment di python itu #(Single line) atau """ (tiga kali) lalu ditutup """" (multiline)
+* # String dalam Python
+Dalam Python, **string** adalah tipe data yang digunakan untuk menyimpan teks atau kumpulan karakter. String dibuat dengan mengapit urutan karakter di dalam tanda kutip tunggal (`'...'`) maupun tanda kutip ganda (`"..."`). String juga bersifat **immutable**, yaitu isinya tidak dapat diubah setelah string dibuat.
+Untuk memahami penggunaannya lebih lanjut, berikut adalah beberapa operasi dan manipulasi dasar yang paling sering digunakan dalam pemrograman Python.
+
+---
+
+## 1. Cara Membuat String
+
+Anda dapat langsung menetapkan teks ke dalam sebuah variabel.
+
+```python
+nama = "Python"
+pesan = 'Belajar Pemrograman'
+```
+
+---
+
+## 2. Menggabungkan String
+
+Gunakan operator penjumlahan (`+`) untuk menggabungkan dua atau lebih string.
+
+```python
+kalimat = "Halo " + "Dunia"
+print(kalimat)  # Output: Halo Dunia
+```
+
+---
+
+## 3. Mengakses Karakter (Indexing)
+
+Anda dapat mengakses karakter tertentu berdasarkan posisinya.
+
+- Indeks dimulai dari `0` untuk karakter pertama.
+- Indeks negatif (`-1`) digunakan untuk mengakses karakter dari belakang.
+
+```python
+teks = "PYTHON"
+
+print(teks[0])   # Output: P
+print(teks[-1])  # Output: N
+```
+
+---
+
+## 4. Mengetahui Panjang String
+
+Gunakan fungsi bawaan `len()` untuk menghitung jumlah karakter dalam sebuah string.
+
+```python
+panjang = len("Pemrograman")
+print(panjang)  # Output: 11
+```
+
+---
+
+## 5. Memformat String (*f-string*)
+
+Gunakan **f-string** (tersedia mulai Python 3.6) untuk memasukkan nilai variabel langsung ke dalam string menggunakan kurung kurawal (`{}`).
+
+```python
+umur = 25
+
+info = f"Saya berumur {umur} tahun"
+print(info)  # Output: Saya berumur 25 tahun
+```
+
+---
+
+## 6. Method String yang Sering Digunakan
+
+Tipe data `string` memiliki banyak method bawaan untuk memanipulasi teks.
+
+### `.upper()`
+
+Mengubah seluruh huruf menjadi huruf kapital.
+
+```python
+teks = "python"
+print(teks.upper())  # Output: PYTHON
+```
+
+### `.lower()`
+
+Mengubah seluruh huruf menjadi huruf kecil.
+
+```python
+teks = "PYTHON"
+print(teks.lower())  # Output: python
+```
+
+### `.replace()`
+
+Mengganti bagian tertentu dari sebuah string.
+
+```python
+teks = "Saya belajar Java"
+hasil = teks.replace("Java", "Python")
+
+print(hasil)
+# Output: Saya belajar Python
+```
+
+---
+
 
 ## Macam-macam built in di Python
 ### A
