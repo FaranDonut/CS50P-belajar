@@ -19,3 +19,4 @@
 > * _Penyimpanan Data:_ Karena fungsi memberikan hasil kembali, hasil tersebut biasanya ditangkap atau disimpan ke dalam sebuah **variabel** menggunakan operator penugasan (`=`) agar bisa digunakan kembali nanti.
 > * _Contoh Fungsi:_ Fungsi seperti `input()` di Python mengembalikan nilai berupa teks yang diketik oleh user. Selain itu, fungsi `int()` atau `float()` juga mengembalikan nilai yang telah dikonversi.
 > * _Fungsi Kustom:_ Anda juga bisa membuat fungsi sendiri yang mengembalikan nilai menggunakan kata kunci `return`. Contohnya saat membuat fungsi `square(n)` yang menghitung `n * n` dan mengembalikan hasilnya.
+* variabel adalah sebuah wadah atau kontainer yang digunakan untuk menyimpan suatu nilai di dalam memori komputer agar dapat digunakan kembali di dalam program. Kegunaan dari variabel memungkinkan pemrogram untuk menyimpan data, baik itu angka, teks (string), maupun tipe data lainnya, sehingga program bisa "mengingat" informasi tersebut
