@@ -25,13 +25,12 @@
 * variabel adalah sebuah wadah atau kontainer yang digunakan untuk menyimpan suatu nilai di dalam memori komputer agar dapat digunakan kembali di dalam program. Kegunaan dari variabel memungkinkan pemrogram untuk menyimpan data, baik itu angka, teks (string), maupun tipe data lainnya, sehingga program bisa "mengingat" informasi tersebut
 * Operator Penugasan (Assignment): David menjelaskan penggunaan tanda = sebagai operator penugasan. Ia menegaskan bahwa ini bukan tanda sama dengan dalam matematika, melainkan perintah untuk "mengambil nilai di sisi kanan dan memasukkannya ke dalam wadah (variabel) di sisi kiri".
 * comment di python itu #(Single line) atau """ (tiga kali) lalu ditutup """" (multiline)
-* # String dalam Python
+* String dalam Python
 Dalam Python, **string** adalah tipe data yang digunakan untuk menyimpan teks atau kumpulan karakter. String dibuat dengan mengapit urutan karakter di dalam tanda kutip tunggal (`'...'`) maupun tanda kutip ganda (`"..."`). String juga bersifat **immutable**, yaitu isinya tidak dapat diubah setelah string dibuat.
 Untuk memahami penggunaannya lebih lanjut, berikut adalah beberapa operasi dan manipulasi dasar yang paling sering digunakan dalam pemrograman Python.
 
 ---
-
-## 1. Cara Membuat String
+###### 1. Cara Membuat String
 
 Anda dapat langsung menetapkan teks ke dalam sebuah variabel.
 
@@ -42,7 +41,7 @@ pesan = 'Belajar Pemrograman'
 
 ---
 
-## 2. Menggabungkan String
+###### 2. Menggabungkan String
 
 Gunakan operator penjumlahan (`+`) untuk menggabungkan dua atau lebih string.
 
@@ -53,7 +52,7 @@ print(kalimat)  # Output: Halo Dunia
 
 ---
 
-## 3. Mengakses Karakter (Indexing)
+###### 3. Mengakses Karakter (Indexing)
 
 Anda dapat mengakses karakter tertentu berdasarkan posisinya.
 
@@ -69,7 +68,7 @@ print(teks[-1])  # Output: N
 
 ---
 
-## 4. Mengetahui Panjang String
+###### 4. Mengetahui Panjang String
 
 Gunakan fungsi bawaan `len()` untuk menghitung jumlah karakter dalam sebuah string.
 
@@ -80,7 +79,7 @@ print(panjang)  # Output: 11
 
 ---
 
-## 5. Memformat String (*f-string*)
+###### 5. Memformat String (*f-string*)
 
 Gunakan **f-string** (tersedia mulai Python 3.6) untuk memasukkan nilai variabel langsung ke dalam string menggunakan kurung kurawal (`{}`).
 
@@ -93,11 +92,11 @@ print(info)  # Output: Saya berumur 25 tahun
 
 ---
 
-## 6. Method String yang Sering Digunakan
+###### 6. Method String yang Sering Digunakan
 
 Tipe data `string` memiliki banyak method bawaan untuk memanipulasi teks.
 
-### `.upper()`
+###### `.upper()`
 
 Mengubah seluruh huruf menjadi huruf kapital.
 
@@ -106,7 +105,7 @@ teks = "python"
 print(teks.upper())  # Output: PYTHON
 ```
 
-### `.lower()`
+###### `.lower()`
 
 Mengubah seluruh huruf menjadi huruf kecil.
 
@@ -115,7 +114,7 @@ teks = "PYTHON"
 print(teks.lower())  # Output: python
 ```
 
-### `.replace()`
+###### `.replace()`
 
 Mengganti bagian tertentu dari sebuah string.
 
