@@ -25,8 +25,7 @@
 * variabel adalah sebuah wadah atau kontainer yang digunakan untuk menyimpan suatu nilai di dalam memori komputer agar dapat digunakan kembali di dalam program. Kegunaan dari variabel memungkinkan pemrogram untuk menyimpan data, baik itu angka, teks (string), maupun tipe data lainnya, sehingga program bisa "mengingat" informasi tersebut
 * Operator Penugasan (Assignment): David menjelaskan penggunaan tanda = sebagai operator penugasan. Ia menegaskan bahwa ini bukan tanda sama dengan dalam matematika, melainkan perintah untuk "mengambil nilai di sisi kanan dan memasukkannya ke dalam wadah (variabel) di sisi kiri".
 * comment di python itu #(Single line) atau """ (tiga kali) lalu ditutup """" (multiline)
-* String dalam Python
-Dalam Python, **string** adalah tipe data yang digunakan untuk menyimpan teks atau kumpulan karakter. String dibuat dengan mengapit urutan karakter di dalam tanda kutip tunggal (`'...'`) maupun tanda kutip ganda (`"..."`). String juga bersifat **immutable**, yaitu isinya tidak dapat diubah setelah string dibuat.
+* **string** adalah tipe data yang digunakan untuk menyimpan teks atau kumpulan karakter. String dibuat dengan mengapit urutan karakter di dalam tanda kutip tunggal (`'...'`) maupun tanda kutip ganda (`"..."`). String juga bersifat **immutable**, yaitu isinya tidak dapat diubah setelah string dibuat.
 Untuk memahami penggunaannya lebih lanjut, berikut adalah beberapa operasi dan manipulasi dasar yang paling sering digunakan dalam pemrograman Python.
 
 ---
