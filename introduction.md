@@ -1,4 +1,4 @@
-Berikut adalah daftar istilah pemrograman yang dijelaskan dalam video **CS50P** beserta definisinya:
+## Berikut adalah daftar istilah pemrograman yang dijelaskan dalam video **CS50P** beserta definisinya:
 
 *   **Functions & Variables :** Mekanisme untuk menulis kode yang memecahkan masalah kecil, yang kemudian dapat digabungkan untuk menyelesaikan masalah yang lebih besar.
 *   **Conditionals :** Cara menulis logika dalam kode untuk menentukan tindakan berdasarkan apakah suatu kondisi bernilai benar (*true*) atau salah (*false*).
@@ -15,7 +15,7 @@ Berikut adalah daftar istilah pemrograman yang dijelaskan dalam video **CS50P** 
 ***Week 0*** 
 * argumen adalah nilai input yang diberikan kepada sebuah fungsi untuk memengaruhi perilakunya, Cara kerjanya: Saat Anda memanggil fungsi, Anda menempatkan nilai (argumen) di dalam tanda kurung. Misalnya, saat menggunakan fungsi print, teks yang ingin Anda tampilkan diteruskan sebagai argumen.
 * return values (nilai balik) adalah sebuah fitur di mana suatu fungsi, setelah menjalankan tugas atau aksinya, memberikan kembali sebuah hasil atau data kepada pemrogram agar dapat digunakan atau diproses lebih lanjut.
-> **Analogi Sederhana:** David Malan mengibaratkan fungsi dengan *return value* seperti meminta tolong kepada teman. Anda memberikan tugas kepada teman untuk menanyakan nama seseorang; ketika teman Anda kembali dengan membawa jawaban nama tersebut, itulah yang disebut sebagai *return value*.
-> **Penyimpanan Data:** Karena fungsi memberikan hasil kembali, hasil tersebut biasanya ditangkap atau disimpan ke dalam sebuah **variabel** menggunakan operator penugasan (`=`) agar bisa digunakan kembali nanti.
-> **Contoh Fungsi:** Fungsi seperti `input()` di Python mengembalikan nilai berupa teks yang diketik oleh pengguna (17:18). Selain itu, fungsi `int()` atau `float()` juga mengembalikan nilai yang telah dikonversi.
-> **Fungsi Kustom:** Anda juga bisa membuat fungsi sendiri yang mengembalikan nilai menggunakan kata kunci `return`. Contohnya saat membuat fungsi `square(n)` yang menghitung `n * n` dan mengembalikan hasilnya.
+> * _Analogi Sederhana:_ David Malan mengibaratkan fungsi dengan *return value* seperti meminta tolong kepada teman. Anda memberikan tugas kepada teman untuk menanyakan nama seseorang; ketika teman Anda kembali dengan membawa jawaban nama tersebut, itulah yang disebut sebagai *return value*.
+> * _Penyimpanan Data:_ Karena fungsi memberikan hasil kembali, hasil tersebut biasanya ditangkap atau disimpan ke dalam sebuah **variabel** menggunakan operator penugasan (`=`) agar bisa digunakan kembali nanti.
+> * _Contoh Fungsi:_ Fungsi seperti `input()` di Python mengembalikan nilai berupa teks yang diketik oleh pengguna (17:18). Selain itu, fungsi `int()` atau `float()` juga mengembalikan nilai yang telah dikonversi.
+> * _Fungsi Kustom:_ Anda juga bisa membuat fungsi sendiri yang mengembalikan nilai menggunakan kata kunci `return`. Contohnya saat membuat fungsi `square(n)` yang menghitung `n * n` dan mengembalikan hasilnya.
