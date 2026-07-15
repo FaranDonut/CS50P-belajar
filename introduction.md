@@ -17,5 +17,5 @@
 * return values (nilai balik) adalah sebuah fitur di mana suatu fungsi, setelah menjalankan tugas atau aksinya, memberikan kembali sebuah hasil atau data kepada pemrogram agar dapat digunakan atau diproses lebih lanjut.
 > * _Analogi Sederhana:_ David Malan mengibaratkan fungsi dengan *return value* seperti meminta tolong kepada teman. Anda memberikan tugas kepada teman untuk menanyakan nama seseorang; ketika teman Anda kembali dengan membawa jawaban nama tersebut, itulah yang disebut sebagai *return value*.
 > * _Penyimpanan Data:_ Karena fungsi memberikan hasil kembali, hasil tersebut biasanya ditangkap atau disimpan ke dalam sebuah **variabel** menggunakan operator penugasan (`=`) agar bisa digunakan kembali nanti.
-> * _Contoh Fungsi:_ Fungsi seperti `input()` di Python mengembalikan nilai berupa teks yang diketik oleh pengguna (17:18). Selain itu, fungsi `int()` atau `float()` juga mengembalikan nilai yang telah dikonversi.
+> * _Contoh Fungsi:_ Fungsi seperti `input()` di Python mengembalikan nilai berupa teks yang diketik oleh user. Selain itu, fungsi `int()` atau `float()` juga mengembalikan nilai yang telah dikonversi.
 > * _Fungsi Kustom:_ Anda juga bisa membuat fungsi sendiri yang mengembalikan nilai menggunakan kata kunci `return`. Contohnya saat membuat fungsi `square(n)` yang menghitung `n * n` dan mengembalikan hasilnya.
