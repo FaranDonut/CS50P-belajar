@@ -11,3 +11,6 @@ Berikut adalah daftar istilah pemrograman yang dijelaskan dalam video **CS50P** 
 *   **Object-Oriented Programming (OOP) :** Paradigma pemrograman untuk merepresentasikan entitas dunia nyata ke dalam bentuk kode menggunakan *class*, *object*, *method*, dan *properties*.
 *   **Procedural Programming :** Paradigma pemrograman yang fokus pada penulisan fungsi atau prosedur langkah demi langkah dari atas ke bawah untuk menyelesaikan masalah.
 *   **Functional Programming :** Salah satu paradigma pemrograman lain yang juga akan dipelajari dalam kursus ini.
+
+***Week 0***
+argumen adalah nilai input yang diberikan kepada sebuah fungsi untuk memengaruhi perilakunya, Cara kerjanya: Saat Anda memanggil fungsi, Anda menempatkan nilai (argumen) di dalam tanda kurung. Misalnya, saat menggunakan fungsi print, teks yang ingin Anda tampilkan diteruskan sebagai argumen.
