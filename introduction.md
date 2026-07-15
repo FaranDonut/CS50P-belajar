@@ -21,4 +21,4 @@
 > * _Fungsi Kustom:_ Anda juga bisa membuat fungsi sendiri yang mengembalikan nilai menggunakan kata kunci `return`. Contohnya saat membuat fungsi `square(n)` yang menghitung `n * n` dan mengembalikan hasilnya.
 * variabel adalah sebuah wadah atau kontainer yang digunakan untuk menyimpan suatu nilai di dalam memori komputer agar dapat digunakan kembali di dalam program. Kegunaan dari variabel memungkinkan pemrogram untuk menyimpan data, baik itu angka, teks (string), maupun tipe data lainnya, sehingga program bisa "mengingat" informasi tersebut
 * Operator Penugasan (Assignment): David menjelaskan penggunaan tanda = sebagai operator penugasan. Ia menegaskan bahwa ini bukan tanda sama dengan dalam matematika, melainkan perintah untuk "mengambil nilai di sisi kanan dan memasukkannya ke dalam wadah (variabel) di sisi kiri".
-* comment di python itu # 
+* comment di python itu #(Single line) atau """ (tiga kali) lalu ditutup """" (multiline)
