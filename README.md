@@ -116,13 +116,15 @@ print(hasil)
 ```
 
 ---
-* int untuk bil. bulat dan float desimal 
+
+* int untuk bil. bulat dan float untuk bil. desimal
+  
 > * * (Perkalian): Mengalikan dua angka.
 > * / (Pembagian): Membagi dua angka (hasilnya otomatis menjadi float).
 > * % (Modulo): Mengembalikan sisa hasil bagi dari dua angka.
 > * ** (Eksponen/Pangkat): Digunakan untuk memangkatkan angka (contoh: 2 ** 3 adalah 8)
 ---
-Catatan Tambahan
+####### Catatan Tambahan
 Int & Float: Saat melakukan operasi matematika, Python akan secara otomatis menangani tipe data tersebut agar hasil perhitungannya akurat.
 Round: Fungsi round(angka, digit) bukan operator, melainkan fungsi yang memproses hasil perhitungan. Ia menerima angka (sering kali hasil dari operator di atas) dan membulatkannya sesuai jumlah digit yang ditentukan 
 ---
