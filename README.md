@@ -119,7 +119,7 @@ print(hasil)
 
 * int untuk bil. bulat dan float untuk bil. desimal
   
-> * * (Perkalian): Mengalikan dua angka.
+> * (*) (Perkalian): Mengalikan dua angka.
 > * / (Pembagian): Membagi dua angka (hasilnya otomatis menjadi float).
 > * % (Modulo): Mengembalikan sisa hasil bagi dari dua angka.
 > * ** (Eksponen/Pangkat): Digunakan untuk memangkatkan angka (contoh: 2 ** 3 adalah 8)
