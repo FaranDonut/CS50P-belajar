@@ -114,7 +114,7 @@ hasil = teks.replace("Java", "Python")
 print(hasil)
 # Output: Saya belajar Python
 ```
-
+---
 
 
 * ###### int untuk bil. bulat dan float untuk bil. desimal
