@@ -117,7 +117,7 @@ print(hasil)
 ---
 
 
-* ###### int untuk bil. bulat dan float untuk bil. desimal
+* int untuk bil. bulat dan float untuk bil. desimal
   
 > * (*) (Perkalian): Mengalikan dua angka.
 > * / (Pembagian): Membagi dua angka (hasilnya otomatis menjadi float).
