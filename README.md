@@ -118,6 +118,11 @@ Round: Fungsi round(angka, digit) bukan operator, melainkan fungsi yang memprose
 
 ---
 
+* def adalah kata kunci yang digunakan untuk mendefinisikan atau membuat fungsi buatan sendiri.
+> * Tujuan: Memungkinkan programmer untuk menulis blok kode sendiri yang dapat dipanggil berkali-kali, sehingga tidak perlu mengulang penulisan kode yang sama.
+> * Sintaks Dasar: def nama_fungsi(): diikuti dengan baris kode yang di-indent (menjorok ke dalam) di bawahnya.
+> * Fungsi: Semua kode yang berada di bawah def dan terindentasi akan dianggap sebagai bagian dari fungsi tersebut. Contoh dalam video: David mendefinisikan fungsi hello dengan def hello(): untuk menjalankan perintah mencetak teks "hello" 
+
 ## Macam-macam built in di Python
 ### A
 
