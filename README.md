@@ -30,29 +30,22 @@ Untuk memahami penggunaannya lebih lanjut, berikut adalah beberapa operasi dan m
 
 ---
 > #### 1. Cara Membuat String
-
-Anda dapat langsung menetapkan teks ke dalam sebuah variabel.
-
+> Anda dapat langsung menetapkan teks ke dalam sebuah variabel.
 ```python
 nama = "Python"
 pesan = 'Belajar Pemrograman'
 ```
 
 > #### 2. Menggabungkan String
-
-Gunakan operator penjumlahan (`+`) untuk menggabungkan dua atau lebih string.
-
+> Gunakan operator penjumlahan (`+`) untuk menggabungkan dua atau lebih string.
 ```python
 kalimat = "Halo " + "Dunia"
 print(kalimat)  # Output: Halo Dunia
 ```
-
 > #### 3. Mengakses Karakter (Indexing)
-
-Anda dapat mengakses karakter tertentu berdasarkan posisinya.
-
-- Indeks dimulai dari `0` untuk karakter pertama.
-- Indeks negatif (`-1`) digunakan untuk mengakses karakter dari belakang.
+> Anda dapat mengakses karakter tertentu berdasarkan posisinya.
+> - Indeks dimulai dari `0` untuk karakter pertama.
+> - Indeks negatif (`-1`) digunakan untuk mengakses karakter dari belakang.
 
 ```python
 teks = "PYTHON"
@@ -62,8 +55,7 @@ print(teks[-1])  # Output: N
 ```
 
 > #### 4. Mengetahui Panjang String
-
-Gunakan fungsi bawaan `len()` untuk menghitung jumlah karakter dalam sebuah string.
+> Gunakan fungsi bawaan `len()` untuk menghitung jumlah karakter dalam sebuah string.
 
 ```python
 panjang = len("Pemrograman")
@@ -71,8 +63,7 @@ print(panjang)  # Output: 11
 ```
 
 > #### 5. Memformat String (*f-string*)
-
-Gunakan **f-string** (tersedia mulai Python 3.6) untuk memasukkan nilai variabel langsung ke dalam string menggunakan kurung kurawal (`{}`).
+> Gunakan **f-string** (tersedia mulai Python 3.6) untuk memasukkan nilai variabel langsung ke dalam string menggunakan kurung kurawal (`{}`).
 
 ```python
 umur = 25
@@ -82,30 +73,25 @@ print(info)  # Output: Saya berumur 25 tahun
 ```
 
 > #### 6. Method String yang Sering Digunakan
-
-Tipe data `string` memiliki banyak method bawaan untuk memanipulasi teks.
-
- `.upper()`
-
-Mengubah seluruh huruf menjadi huruf kapital.
+> Tipe data `string` memiliki banyak method bawaan untuk memanipulasi teks.
+> `.upper()`
+> Mengubah seluruh huruf menjadi huruf kapital.
 
 ```python
 teks = "python"
 print(teks.upper())  # Output: PYTHON
 ```
 
-`.lower()`
-
-Mengubah seluruh huruf menjadi huruf kecil.
+> `.lower()`
+> Mengubah seluruh huruf menjadi huruf kecil.
 
 ```python
 teks = "PYTHON"
 print(teks.lower())  # Output: python
 ```
 
-`.replace()`
-
-Mengganti bagian tertentu dari sebuah string.
+> `.replace()`
+> Mengganti bagian tertentu dari sebuah string.
 
 ```python
 teks = "Saya belajar Java"
