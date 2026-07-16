@@ -55,7 +55,7 @@ print(teks[-1])  # Output: N
 ```
 
 > #### 4. Mengetahui Panjang String
-> Gunakan fungsi bawaan `len()` untuk menghitung jumlah karakter dalam sebuah string.
+> Gunakan fungsi bawaan  `len()` untuk menghitung jumlah karakter dalam sebuah string.
 
 ```python
 panjang = len("Pemrograman")
@@ -74,7 +74,7 @@ print(info)  # Output: Saya berumur 25 tahun
 
 > #### 6. Method String yang Sering Digunakan
 > Tipe data `string` memiliki banyak method bawaan untuk memanipulasi teks.
-> `.upper()`
+> * `.upper()`
 > Mengubah seluruh huruf menjadi huruf kapital.
 
 ```python
@@ -82,7 +82,7 @@ teks = "python"
 print(teks.upper())  # Output: PYTHON
 ```
 
-> `.lower()`
+> * `.lower()`
 > Mengubah seluruh huruf menjadi huruf kecil.
 
 ```python
@@ -90,7 +90,7 @@ teks = "PYTHON"
 print(teks.lower())  # Output: python
 ```
 
-> `.replace()`
+> * `.replace()`
 > Mengganti bagian tertentu dari sebuah string.
 
 ```python
