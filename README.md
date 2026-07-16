@@ -115,7 +115,7 @@ print(hasil)
 # Output: Saya belajar Python
 ```
 
----
+
 
 * ###### int untuk bil. bulat dan float untuk bil. desimal
   
@@ -123,6 +123,7 @@ print(hasil)
 > * / (Pembagian): Membagi dua angka (hasilnya otomatis menjadi float).
 > * % (Modulo): Mengembalikan sisa hasil bagi dari dua angka.
 > * ** (Eksponen/Pangkat): Digunakan untuk memangkatkan angka (contoh: 2 ** 3 adalah 8)
+
 ---
 
 ##### Catatan Tambahan
